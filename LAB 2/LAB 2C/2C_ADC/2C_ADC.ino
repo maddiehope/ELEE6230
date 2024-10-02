@@ -19,8 +19,6 @@ void loop() {
   Serial.print(adcValue);
   Serial.print(", Voltage: ");
   Serial.print(voltage, 3);
-  Serial.print("V, Bridge Voltage: ");
-  Serial.print(bridgeVoltage, 3);
   Serial.print("V, Resistance: ");
   Serial.print(resistance, 2);
   Serial.print("Ω, Temperature: ");

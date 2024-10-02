@@ -3,8 +3,8 @@
 Servo fsrServo;  // Servo controlled by FSR
 Servo ldrServo;  // Servo controlled by LDR
 
-const int fsrPin = A0;
-const int ldrPin = A1;
+const int fsrPin = A1;
+const int ldrPin = A2;
 int fsrReading, ldrReading;
 int fsrServoPosition, ldrServoPosition;
 

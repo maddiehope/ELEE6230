@@ -20,8 +20,8 @@
 WiFiClient wifiClient;
 // ------------------------------------------------------------------------------- //
 // THINGSPEAK INIT --------------------------------------------------------------- //
-unsigned long myChannelNumber = 2648751;
-const char * myWriteAPIKey = "DGTZ3H4VVTIDSP0Y";
+unsigned long myChannelNumber = 2680118;
+const char * myWriteAPIKey = "GPZYFSECI49NF12X";
 // ----------------------------------------------------------------
 
 void setup() {
