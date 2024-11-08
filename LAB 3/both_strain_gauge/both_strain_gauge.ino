@@ -102,13 +102,13 @@ float calculatePosition(float hx711_reading, int INA121_reading) {
 }
 
 float normalizeHX711(float reading) {
-  const float HX711_MIN = 50;  // Adjust based on your observations
-  const float HX711_MAX = 75;  // Adjust based on your observations
+  const float HX711_MIN = 50;  
+  const float HX711_MAX = 75;  
   return (reading - HX711_MIN) / (HX711_MAX - HX711_MIN) * 2 - 1;
 }
 
 float normalizeINA121(int reading) {
-  const int INA121_MIN = 0;    // Adjust based on your observations
-  const int INA121_MAX = 1023; // Assuming 10-bit ADC
+  const int INA121_MIN = 0;  
+  const int INA121_MAX = 1023; // 10-bit ADC
   return (float)(reading - INA121_MIN) / (INA121_MAX - INA121_MIN) * 2 - 1;
 }
