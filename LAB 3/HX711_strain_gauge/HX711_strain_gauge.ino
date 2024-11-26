@@ -42,7 +42,7 @@ void loop() {
     Serial.println();
   }
 
-  delay(10);  // Short delay for smoother plotting
+  delay(100);  // Short delay for smoother plotting
 }
 
 float getAverageReading() {
